@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../demo/greeting.js", "../demo/build.js"],
+  "sourcesContent": ["export function greeting(name) {\n    return `Hello, ${name}!`;\n  }", "import { greeting } from './greeting.js';\n\nconsole.log(greeting('World'));\n"],
+  "mappings": ";AAAO,SAAS,SAAS,MAAM;AAC3B,SAAO,UAAU,IAAI;AACvB;;;ACAF,QAAQ,IAAI,SAAS,OAAO,CAAC;",
+  "names": []
+}
